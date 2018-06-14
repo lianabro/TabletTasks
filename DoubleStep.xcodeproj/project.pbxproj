@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5552DC3A18F854CA00E7CC5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5552DC3918F854CA00E7CC5D /* Foundation.framework */; };
+		5552DC3C18F854CA00E7CC5D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5552DC3B18F854CA00E7CC5D /* CoreGraphics.framework */; };
+		5552DC3E18F854CA00E7CC5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5552DC3D18F854CA00E7CC5D /* UIKit.framework */; };
+		5552DC4418F854CA00E7CC5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5552DC4218F854CA00E7CC5D /* InfoPlist.strings */; };
+		5552DC4618F854CA00E7CC5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5552DC4518F854CA00E7CC5D /* main.m */; };
+		5552DC4A18F854CA00E7CC5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5552DC4918F854CA00E7CC5D /* AppDelegate.m */; };
+		5552DC4D18F854CA00E7CC5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5552DC4B18F854CA00E7CC5D /* Main.storyboard */; };
+		5552DC5018F854CA00E7CC5D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5552DC4F18F854CA00E7CC5D /* MainViewController.m */; };
+		5552DC5518F854CA00E7CC5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5552DC5418F854CA00E7CC5D /* Images.xcassets */; };
+		5552DC5C18F854CA00E7CC5D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5552DC5B18F854CA00E7CC5D /* XCTest.framework */; };
+		5552DC5D18F854CA00E7CC5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5552DC3918F854CA00E7CC5D /* Foundation.framework */; };
+		5552DC5E18F854CA00E7CC5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5552DC3D18F854CA00E7CC5D /* UIKit.framework */; };
+		5552DC6618F854CA00E7CC5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5552DC6418F854CA00E7CC5D /* InfoPlist.strings */; };
+		5552DC6818F854CA00E7CC5D /* DoubleStepTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5552DC6718F854CA00E7CC5D /* DoubleStepTests.m */; };
+		5552DC7518F857E100E7CC5D /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5552DC7318F857E100E7CC5D /* libsqlite3.0.dylib */; };
+		5552DC7618F857E100E7CC5D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5552DC7418F857E100E7CC5D /* libsqlite3.dylib */; };
+		5552DC7918F858DD00E7CC5D /* dsdb.m in Sources */ = {isa = PBXBuildFile; fileRef = 5552DC7818F858DD00E7CC5D /* dsdb.m */; };
+		5552DC7C18F86E3C00E7CC5D /* Trial.m in Sources */ = {isa = PBXBuildFile; fileRef = 5552DC7B18F86E3C00E7CC5D /* Trial.m */; };
+		5552DC8218F8DAAE00E7CC5D /* circleg.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5552DC8118F8DAAE00E7CC5D /* circleg.gif */; };
+		5552DC8518F8DABA00E7CC5D /* GreyCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 5552DC8318F8DABA00E7CC5D /* GreyCircle.png */; };
+		5552DC8618F8DABA00E7CC5D /* RedCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 5552DC8418F8DABA00E7CC5D /* RedCircle.png */; };
+		5552DC8918F8DAD600E7CC5D /* TrialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5552DC8818F8DAD600E7CC5D /* TrialViewController.m */; };
+		559E1B9019074342003A2ABA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559E1B8F19074342003A2ABA /* MessageUI.framework */; };
+		559E1B921907583B003A2ABA /* db.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 559E1B911907583B003A2ABA /* db.sqlite */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5552DC5F18F854CA00E7CC5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5552DC2E18F854CA00E7CC5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5552DC3518F854CA00E7CC5D;
+			remoteInfo = DoubleStep;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5552DC3618F854CA00E7CC5D /* DoubleStep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubleStep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5552DC3918F854CA00E7CC5D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5552DC3B18F854CA00E7CC5D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5552DC3D18F854CA00E7CC5D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5552DC4118F854CA00E7CC5D /* DoubleStep-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoubleStep-Info.plist"; sourceTree = "<group>"; };
+		5552DC4318F854CA00E7CC5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5552DC4518F854CA00E7CC5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5552DC4718F854CA00E7CC5D /* DoubleStep-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoubleStep-Prefix.pch"; sourceTree = "<group>"; };
+		5552DC4818F854CA00E7CC5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5552DC4918F854CA00E7CC5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5552DC4C18F854CA00E7CC5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5552DC4E18F854CA00E7CC5D /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5552DC4F18F854CA00E7CC5D /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		5552DC5418F854CA00E7CC5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5552DC5A18F854CA00E7CC5D /* DoubleStepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoubleStepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5552DC5B18F854CA00E7CC5D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5552DC6318F854CA00E7CC5D /* DoubleStepTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoubleStepTests-Info.plist"; sourceTree = "<group>"; };
+		5552DC6518F854CA00E7CC5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5552DC6718F854CA00E7CC5D /* DoubleStepTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubleStepTests.m; sourceTree = "<group>"; };
+		5552DC7318F857E100E7CC5D /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		5552DC7418F857E100E7CC5D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		5552DC7718F858DD00E7CC5D /* dsdb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dsdb.h; sourceTree = "<group>"; };
+		5552DC7818F858DD00E7CC5D /* dsdb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dsdb.m; sourceTree = "<group>"; };
+		5552DC7A18F86E3C00E7CC5D /* Trial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trial.h; sourceTree = "<group>"; };
+		5552DC7B18F86E3C00E7CC5D /* Trial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Trial.m; sourceTree = "<group>"; };
+		5552DC8118F8DAAE00E7CC5D /* circleg.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = circleg.gif; sourceTree = "<group>"; };
+		5552DC8318F8DABA00E7CC5D /* GreyCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreyCircle.png; sourceTree = "<group>"; };
+		5552DC8418F8DABA00E7CC5D /* RedCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedCircle.png; sourceTree = "<group>"; };
+		5552DC8718F8DAD600E7CC5D /* TrialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrialViewController.h; sourceTree = "<group>"; };
+		5552DC8818F8DAD600E7CC5D /* TrialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrialViewController.m; sourceTree = "<group>"; };
+		559E1B8F19074342003A2ABA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		559E1B911907583B003A2ABA /* db.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = db.sqlite; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5552DC3318F854CA00E7CC5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559E1B9019074342003A2ABA /* MessageUI.framework in Frameworks */,
+				5552DC7518F857E100E7CC5D /* libsqlite3.0.dylib in Frameworks */,
+				5552DC7618F857E100E7CC5D /* libsqlite3.dylib in Frameworks */,
+				5552DC3C18F854CA00E7CC5D /* CoreGraphics.framework in Frameworks */,
+				5552DC3E18F854CA00E7CC5D /* UIKit.framework in Frameworks */,
+				5552DC3A18F854CA00E7CC5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5552DC5718F854CA00E7CC5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5552DC5C18F854CA00E7CC5D /* XCTest.framework in Frameworks */,
+				5552DC5E18F854CA00E7CC5D /* UIKit.framework in Frameworks */,
+				5552DC5D18F854CA00E7CC5D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5552DC2D18F854CA00E7CC5D = {
+			isa = PBXGroup;
+			children = (
+				5552DC3F18F854CA00E7CC5D /* DoubleStep */,
+				5552DC6118F854CA00E7CC5D /* DoubleStepTests */,
+				5552DC3818F854CA00E7CC5D /* Frameworks */,
+				5552DC3718F854CA00E7CC5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5552DC3718F854CA00E7CC5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5552DC3618F854CA00E7CC5D /* DoubleStep.app */,
+				5552DC5A18F854CA00E7CC5D /* DoubleStepTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5552DC3818F854CA00E7CC5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				559E1B8F19074342003A2ABA /* MessageUI.framework */,
+				5552DC7318F857E100E7CC5D /* libsqlite3.0.dylib */,
+				5552DC7418F857E100E7CC5D /* libsqlite3.dylib */,
+				5552DC3918F854CA00E7CC5D /* Foundation.framework */,
+				5552DC3B18F854CA00E7CC5D /* CoreGraphics.framework */,
+				5552DC3D18F854CA00E7CC5D /* UIKit.framework */,
+				5552DC5B18F854CA00E7CC5D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5552DC3F18F854CA00E7CC5D /* DoubleStep */ = {
+			isa = PBXGroup;
+			children = (
+				559E1B911907583B003A2ABA /* db.sqlite */,
+				5552DC8318F8DABA00E7CC5D /* GreyCircle.png */,
+				5552DC8418F8DABA00E7CC5D /* RedCircle.png */,
+				5552DC8118F8DAAE00E7CC5D /* circleg.gif */,
+				5552DC4818F854CA00E7CC5D /* AppDelegate.h */,
+				5552DC4918F854CA00E7CC5D /* AppDelegate.m */,
+				5552DC4B18F854CA00E7CC5D /* Main.storyboard */,
+				5552DC4E18F854CA00E7CC5D /* MainViewController.h */,
+				5552DC4F18F854CA00E7CC5D /* MainViewController.m */,
+				5552DC5418F854CA00E7CC5D /* Images.xcassets */,
+				5552DC4018F854CA00E7CC5D /* Supporting Files */,
+				5552DC7718F858DD00E7CC5D /* dsdb.h */,
+				5552DC7818F858DD00E7CC5D /* dsdb.m */,
+				5552DC7A18F86E3C00E7CC5D /* Trial.h */,
+				5552DC7B18F86E3C00E7CC5D /* Trial.m */,
+				5552DC8718F8DAD600E7CC5D /* TrialViewController.h */,
+				5552DC8818F8DAD600E7CC5D /* TrialViewController.m */,
+			);
+			path = DoubleStep;
+			sourceTree = "<group>";
+		};
+		5552DC4018F854CA00E7CC5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5552DC4118F854CA00E7CC5D /* DoubleStep-Info.plist */,
+				5552DC4218F854CA00E7CC5D /* InfoPlist.strings */,
+				5552DC4518F854CA00E7CC5D /* main.m */,
+				5552DC4718F854CA00E7CC5D /* DoubleStep-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5552DC6118F854CA00E7CC5D /* DoubleStepTests */ = {
+			isa = PBXGroup;
+			children = (
+				5552DC6718F854CA00E7CC5D /* DoubleStepTests.m */,
+				5552DC6218F854CA00E7CC5D /* Supporting Files */,
+			);
+			path = DoubleStepTests;
+			sourceTree = "<group>";
+		};
+		5552DC6218F854CA00E7CC5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5552DC6318F854CA00E7CC5D /* DoubleStepTests-Info.plist */,
+				5552DC6418F854CA00E7CC5D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5552DC3518F854CA00E7CC5D /* DoubleStep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5552DC6B18F854CA00E7CC5D /* Build configuration list for PBXNativeTarget "DoubleStep" */;
+			buildPhases = (
+				5552DC3218F854CA00E7CC5D /* Sources */,
+				5552DC3318F854CA00E7CC5D /* Frameworks */,
+				5552DC3418F854CA00E7CC5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoubleStep;
+			productName = DoubleStep;
+			productReference = 5552DC3618F854CA00E7CC5D /* DoubleStep.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5552DC5918F854CA00E7CC5D /* DoubleStepTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5552DC6E18F854CA00E7CC5D /* Build configuration list for PBXNativeTarget "DoubleStepTests" */;
+			buildPhases = (
+				5552DC5618F854CA00E7CC5D /* Sources */,
+				5552DC5718F854CA00E7CC5D /* Frameworks */,
+				5552DC5818F854CA00E7CC5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5552DC6018F854CA00E7CC5D /* PBXTargetDependency */,
+			);
+			name = DoubleStepTests;
+			productName = DoubleStepTests;
+			productReference = 5552DC5A18F854CA00E7CC5D /* DoubleStepTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5552DC2E18F854CA00E7CC5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ferocia Solutions Inc.";
+				TargetAttributes = {
+					5552DC3518F854CA00E7CC5D = {
+						DevelopmentTeam = 58XLX3JUW6;
+					};
+					5552DC5918F854CA00E7CC5D = {
+						TestTargetID = 5552DC3518F854CA00E7CC5D;
+					};
+				};
+			};
+			buildConfigurationList = 5552DC3118F854CA00E7CC5D /* Build configuration list for PBXProject "DoubleStep" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5552DC2D18F854CA00E7CC5D;
+			productRefGroup = 5552DC3718F854CA00E7CC5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5552DC3518F854CA00E7CC5D /* DoubleStep */,
+				5552DC5918F854CA00E7CC5D /* DoubleStepTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5552DC3418F854CA00E7CC5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5552DC8518F8DABA00E7CC5D /* GreyCircle.png in Resources */,
+				559E1B921907583B003A2ABA /* db.sqlite in Resources */,
+				5552DC5518F854CA00E7CC5D /* Images.xcassets in Resources */,
+				5552DC4418F854CA00E7CC5D /* InfoPlist.strings in Resources */,
+				5552DC8618F8DABA00E7CC5D /* RedCircle.png in Resources */,
+				5552DC4D18F854CA00E7CC5D /* Main.storyboard in Resources */,
+				5552DC8218F8DAAE00E7CC5D /* circleg.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5552DC5818F854CA00E7CC5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5552DC6618F854CA00E7CC5D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5552DC3218F854CA00E7CC5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5552DC4A18F854CA00E7CC5D /* AppDelegate.m in Sources */,
+				5552DC8918F8DAD600E7CC5D /* TrialViewController.m in Sources */,
+				5552DC5018F854CA00E7CC5D /* MainViewController.m in Sources */,
+				5552DC7C18F86E3C00E7CC5D /* Trial.m in Sources */,
+				5552DC7918F858DD00E7CC5D /* dsdb.m in Sources */,
+				5552DC4618F854CA00E7CC5D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5552DC5618F854CA00E7CC5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5552DC6818F854CA00E7CC5D /* DoubleStepTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5552DC6018F854CA00E7CC5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5552DC3518F854CA00E7CC5D /* DoubleStep */;
+			targetProxy = 5552DC5F18F854CA00E7CC5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5552DC4218F854CA00E7CC5D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5552DC4318F854CA00E7CC5D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5552DC4B18F854CA00E7CC5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5552DC4C18F854CA00E7CC5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5552DC6418F854CA00E7CC5D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5552DC6518F854CA00E7CC5D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5552DC6918F854CA00E7CC5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5552DC6A18F854CA00E7CC5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5552DC6C18F854CA00E7CC5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoubleStep/DoubleStep-Prefix.pch";
+				INFOPLIST_FILE = "DoubleStep/DoubleStep-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5552DC6D18F854CA00E7CC5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoubleStep/DoubleStep-Prefix.pch";
+				INFOPLIST_FILE = "DoubleStep/DoubleStep-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5552DC6F18F854CA00E7CC5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DoubleStep.app/DoubleStep";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoubleStep/DoubleStep-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DoubleStepTests/DoubleStepTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5552DC7018F854CA00E7CC5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DoubleStep.app/DoubleStep";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoubleStep/DoubleStep-Prefix.pch";
+				INFOPLIST_FILE = "DoubleStepTests/DoubleStepTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5552DC3118F854CA00E7CC5D /* Build configuration list for PBXProject "DoubleStep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5552DC6918F854CA00E7CC5D /* Debug */,
+				5552DC6A18F854CA00E7CC5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5552DC6B18F854CA00E7CC5D /* Build configuration list for PBXNativeTarget "DoubleStep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5552DC6C18F854CA00E7CC5D /* Debug */,
+				5552DC6D18F854CA00E7CC5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5552DC6E18F854CA00E7CC5D /* Build configuration list for PBXNativeTarget "DoubleStepTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5552DC6F18F854CA00E7CC5D /* Debug */,
+				5552DC7018F854CA00E7CC5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5552DC2E18F854CA00E7CC5D /* Project object */;
+}

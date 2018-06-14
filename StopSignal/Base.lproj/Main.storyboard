@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stop Signal Test" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xws-Nw-9wo">
+                                <rect key="frame" x="208" y="20" width="353" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Subject Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="B8V-vA-1el">
+                                <rect key="frame" x="208" y="89" width="353" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fcZ-Re-oYV">
+                                <rect key="frame" x="20" y="322" width="728" height="682"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bo0-Mj-JYb">
+                                <rect key="frame" x="20" y="250" width="360" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Empty">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Empty" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ico-m5-byc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tm7-5D-rtu">
+                                <rect key="frame" x="388" y="248" width="360" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Load Trials">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="LoadTrials" destination="BYZ-38-t0r" eventType="touchUpInside" id="J8m-3g-JkP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y1d-ag-ZSM">
+                                <rect key="frame" x="20" y="178" width="360" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Begin Trials">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="BeginTrials" destination="BYZ-38-t0r" eventType="touchUpInside" id="MgE-ur-z78"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OuQ-6O-XYV">
+                                <rect key="frame" x="388" y="176" width="360" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <state key="normal" title="Export Results">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="ExportResults" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Ga-cH-Xv4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="subjectName" destination="B8V-vA-1el" id="saO-JD-9ZD"/>
+                        <outlet property="trialsView" destination="fcZ-Re-oYV" id="q13-EZ-gQ6"/>
+                        <segue destination="NmU-TP-WIr" kind="modal" identifier="beginTrials" id="WJW-23-PA7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Trials View Controller-->
+        <scene sceneID="bFN-xY-AmP">
+            <objects>
+                <viewController id="NmU-TP-WIr" customClass="trialsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="r7U-ui-Cbj"/>
+                        <viewControllerLayoutGuide type="bottom" id="uMQ-0E-Vmm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tQa-q6-h25">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="circleg.gif" translatesAutoresizingMaskIntoConstraints="NO" id="Wzs-M1-0z4">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="GreyCircle.png" translatesAutoresizingMaskIntoConstraints="NO" id="GG3-4d-OpW">
+                                <rect key="frame" x="352" y="26" width="64" height="64"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PCd-gP-y8F">
+                                <rect key="frame" x="352" y="901" width="64" height="64"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="RedCircle.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonDown" destination="NmU-TP-WIr" eventType="touchDown" id="fGB-Au-igk"/>
+                                    <action selector="buttonUp" destination="NmU-TP-WIr" eventType="touchUpInside" id="5Ld-b2-9DS"/>
+                                    <action selector="buttonUp" destination="NmU-TP-WIr" eventType="touchUpOutside" id="UhM-ZB-EfR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uyr-gs-zpr">
+                                <rect key="frame" x="20" y="20" width="294" height="914"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="294" id="ai0-Ff-3ck"/>
+                                    <constraint firstAttribute="height" constant="914" id="fef-vQ-2I7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchLeft" destination="NmU-TP-WIr" eventType="touchDown" id="1Ol-pa-ElR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d53-X1-MfA">
+                                <rect key="frame" x="452" y="26" width="286" height="908"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="286" id="DLz-Dj-irI"/>
+                                    <constraint firstAttribute="height" constant="908" id="l9n-Pc-UeO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchRight" destination="NmU-TP-WIr" eventType="touchDown" id="ow5-Zw-SnF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z38-p3-fWb">
+                                <rect key="frame" x="20" y="968" width="87" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <state key="normal" title="Quit">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Quit" destination="NmU-TP-WIr" eventType="touchUpInside" id="eO6-Mh-gsf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uyr-gs-zpr" firstAttribute="leading" secondItem="tQa-q6-h25" secondAttribute="leading" constant="20" symbolic="YES" id="0B2-RL-Xu4"/>
+                            <constraint firstItem="uyr-gs-zpr" firstAttribute="bottom" secondItem="d53-X1-MfA" secondAttribute="bottom" id="0cj-wW-NyE"/>
+                            <constraint firstItem="Wzs-M1-0z4" firstAttribute="top" secondItem="tQa-q6-h25" secondAttribute="top" id="9RF-wj-CFR"/>
+                            <constraint firstItem="GG3-4d-OpW" firstAttribute="top" secondItem="d53-X1-MfA" secondAttribute="top" id="HCb-Hj-eDk"/>
+                            <constraint firstItem="Wzs-M1-0z4" firstAttribute="trailing" secondItem="tQa-q6-h25" secondAttribute="trailing" id="I7n-ar-roj"/>
+                            <constraint firstItem="uyr-gs-zpr" firstAttribute="top" secondItem="tQa-q6-h25" secondAttribute="top" constant="20" symbolic="YES" id="LHN-OE-HDY"/>
+                            <constraint firstAttribute="bottom" secondItem="PCd-gP-y8F" secondAttribute="bottom" constant="57" id="fzg-Pv-k3I"/>
+                            <constraint firstItem="Wzs-M1-0z4" firstAttribute="bottom" secondItem="tQa-q6-h25" secondAttribute="bottom" id="hBu-uE-JFZ"/>
+                            <constraint firstAttribute="trailing" secondItem="d53-X1-MfA" secondAttribute="trailing" constant="30" id="kZ1-Zl-Ljv"/>
+                            <constraint firstItem="GG3-4d-OpW" firstAttribute="leading" secondItem="PCd-gP-y8F" secondAttribute="leading" id="nhi-ZE-UDP"/>
+                            <constraint firstItem="Wzs-M1-0z4" firstAttribute="leading" secondItem="tQa-q6-h25" secondAttribute="leading" id="xSD-J2-Mwv"/>
+                            <constraint firstAttribute="centerX" secondItem="PCd-gP-y8F" secondAttribute="centerX" id="xbU-H1-Mgo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="image" destination="GG3-4d-OpW" id="6Xq-bj-vP0"/>
+                        <outlet property="redButton" destination="PCd-gP-y8F" id="mg0-q7-XRs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TyC-BS-fE0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1254" y="-116"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="GreyCircle.png" width="64" height="64"/>
+        <image name="RedCircle.png" width="64" height="64"/>
+        <image name="circleg.gif" width="1512" height="1008"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
